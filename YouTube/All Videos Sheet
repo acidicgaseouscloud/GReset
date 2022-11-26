@@ -4,11 +4,4 @@ for filepath in glob('lists/*.csv'):
         bigdf = pd.concat([bigdf,tempdf])
 bigdf = bigdf.drop_duplicates(subset=['videoId']) # removing repeated entries based on videoId
 
-
-urls = []
-for vidid in list(bigdf.videoId): # converting this column of the df to list 
-    urls.append("https://www.youtube.com/watch?v="+vidid) # appending url to file
-
-bigdf['urls'] = urls # adding this column to the df 
-
 bigdf.to_excel('allvideos.xlsx')
