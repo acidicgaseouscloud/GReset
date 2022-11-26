@@ -40,7 +40,6 @@ f.close()
 
 # write to file 
 
-
 # =============
 # Issue that countries with multiple words in their names
 # are not included like USA, UK, UAE, New Zealand. Probably 
