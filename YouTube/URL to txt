@@ -8,6 +8,6 @@ bigdf['urls'] = urls # adding this column to the df
 bigdf.to_excel('allvideos.xlsx')
 
 
-urlsf = open('SelectISOcodes.txt', 'x')
+urlsf = open('urls.txt', 'x')
 urlsf.write('\n'.join(urls))
 urlsf.close()
