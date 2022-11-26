@@ -8,8 +8,7 @@ Code written for project on The Great Reset
 3. Retrieve [ISO](https://www.iso.org/iso-3166-country-codes.html) codes
 
 ### YouTube
-1. Use country codes to procure YouTube data via [YouTube Data Tools](https://tools.digitalmethods.net/netvizz/youtube/) using keyword "great reset"[^2] 
-  - Provides search results till position 50 as .csv
+1. Use country codes to procure YouTube data via [YouTube Data Tools](https://tools.digitalmethods.net/netvizz/youtube/) using keyword "great reset"[^2]. Provides search results till position 50 as .csv
 2. Produce one excel sheet of unique videos from each country.
  
 #### Thumbnail Grid
@@ -28,10 +27,11 @@ Following this [tutorial](https://lav.io/notes/videogrep-tutorial/)
 ### BitChute
 Doesn't have varying results by country. 
 
-1. Scrape BitChute for the search results
+1. Scrape BitChute for the search results using this [package](https://github.com/bumatic/bitchute-scraper)
 2. Use search results to download the videos
 
-
+---
+# Footnotes
 
 [^1]: Fails at countries with multiple words in their name.
 [^2]: Doesn't account for multilingual names of the phenomenon. 
