@@ -3,7 +3,7 @@ Project with [Marc Tuters](https://www.uva.nl/en/profile/t/u/m.d.tuters/m.d.tute
 
 ## Steps
 ### General 
-1. Procure list of [World Economic Forum](https://www.weforum.org/) participants
+1. Download the pdf list of [World Economic Forum](https://www.weforum.org/) participants 
 2. Read [PDF](https://www3.weforum.org/docs/WEF_AM22_Official_List_of_Participants.pdf) to procure country information[^1]
 3. Retrieve [ISO](https://www.iso.org/iso-3166-country-codes.html) codes
 
