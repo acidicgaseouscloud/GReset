@@ -4,7 +4,7 @@ Code written for project on The Great Reset
 ## Steps
 ### General 
 1. Procure list of [World Economic Forum](https://www.weforum.org/) participants
-2. Read PDF to procure country information[^1]
+2. Read [PDF](https://www3.weforum.org/docs/WEF_AM22_Official_List_of_Participants.pdf) to procure country information[^1]
 3. Retrieve [ISO](https://www.iso.org/iso-3166-country-codes.html) codes
 
 ### YouTube
@@ -18,6 +18,7 @@ Code written for project on The Great Reset
 3. Create new image and place thumbnails according to video position (+ labels for country name and positions)
 
 #### SuperCut
+Following this [tutorial](https://lav.io/notes/videogrep-tutorial/)
 1. Download the unique videos and their subtitles (if available)
 2. Transcribe videos for which subtitles are unavailable.[^4] 
 3. Use the timestamps from the subtitles for clipping "great reset" from the videos 
