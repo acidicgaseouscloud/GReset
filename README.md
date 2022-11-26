@@ -1,5 +1,5 @@
 # The Great Reset 
-Project with [Marc Tuters](https://www.uva.nl/en/profile/t/u/m.d.tuters/m.d.tuters.html) on videos of The Great Reset on YouTube and BitChute. 
+Project with [Marc Tuters](https://www.uva.nl/en/profile/t/u/m.d.tuters/m.d.tuters.html) on videos of [The Great Reset](https://www.weforum.org/great-reset), an economic proposal by the WEF ([wiki](https://en.wikipedia.org/wiki/Great_Reset)) on YouTube and BitChute. 
 
 ## Steps
 ### General 
