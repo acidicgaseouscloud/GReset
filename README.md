@@ -1,5 +1,5 @@
 # The Great Reset 
-Code written for project on The Great Reset 
+Project with [Marc Tuters](https://www.uva.nl/en/profile/t/u/m.d.tuters/m.d.tuters.html) on videos of The Great Reset on YouTube and BitChute. 
 
 ## Steps
 ### General 
@@ -17,7 +17,7 @@ Code written for project on The Great Reset
 3. Create new image and place thumbnails according to video position (+ labels for country name and positions)
 
 #### SuperCut
-Following this [tutorial](https://lav.io/notes/videogrep-tutorial/)
+Following this [tutorial](https://lav.io/notes/videogrep-tutorial/) by [Sam Lavigne](https://lav.io/)
 1. Download the unique videos and their subtitles (if available)
 2. Transcribe videos for which subtitles are unavailable.[^4] 
 3. Use the timestamps from the subtitles for clipping "great reset" from the videos 
@@ -27,8 +27,12 @@ Following this [tutorial](https://lav.io/notes/videogrep-tutorial/)
 ### BitChute
 Doesn't have varying results by country. 
 
-1. Scrape BitChute for the search results using this [package](https://github.com/bumatic/bitchute-scraper)
+1. Scrape BitChute for the search results using this [package](https://github.com/bumatic/bitchute-scraper) by [Bumatic](https://github.com/bumatic)
 2. Use search results to download the videos
+
+## Converting subtitles to txt for textual analysis
+1. For .vtt
+2. For .json
 
 ---
 # Footnotes
