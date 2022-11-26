@@ -4,7 +4,7 @@ Code written for project on The Great Reset
 ## Steps
 ### General 
 1. Procure list of [World Economic Forum](https://www.weforum.org/) participants
-2. Read PDF to procure country information [^1] [^1]: Fails at countries with multiple words in their name.
+2. Read PDF to procure country information[^1]
 3. Retrieve [ISO](https://www.iso.org/iso-3166-country-codes.html) codes
 
 ### YouTube
@@ -32,6 +32,6 @@ Doesn't have varying results by country.
 
 
 
-
+[^1]: Fails at countries with multiple words in their name.
 
 
