@@ -22,13 +22,20 @@ f = open('BCurls.txt', 'x')
 f.write(textBCurls)
 f.close()
 
-# wget the url list: wget -i BCurls.txt gives html files
+# wget the url list gives html files: wget -i BCurls.txt 
+# adding this will save as the format of the link: --content-disposition
+
+# Read files, used later
+def read_file(filename):
+    with open(filename, encoding='utf8') as infile:
+        contents = infile.read()
+    return contents
 
 # find the actual location of video 
 
 sourceURLs = []
 for file in glob("html/*"):
-    text = read_file(file)
+    text = read_file(file) 
     text = text.split('\n')
     for line in text: 
         if "video/mp4" in line:
